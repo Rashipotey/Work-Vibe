@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=-29.618448,125.482381"
+  },
+  {
+    "id": "2",
+    "name": "Green Garden",
+    "type": "Garden",
+    "description": "Lush green space ideal for relaxation and remote work.",
+    "googleMapsUrl": "https://maps.google.com/?q=69.338217,-74.978714"
+  },
+  {
+    "id": "3",
+    "name": "FocusLab",
+    "type": "Co-Working",
+    "description": "Focus-friendly zone with ergonomic chairs.",
+    "googleMapsUrl": "https://maps.google.com/?q=27.182326,-92.964877"
+  },
+  {
+    "id": "4",
+    "name": "Digital Nomad Caf\u00e9",
+    "type": "Cafe",
+    "description": "Hip cafe loved by freelancers and nomads.",
+    "googleMapsUrl": "https://maps.google.com/?q=44.986247,52.166967"
+  },
+  {
+    "id": "5",
+    "name": "Cafe Coffee Day",
+    "type": "Cafe",
+    "description": "Popular chain offering coffee, snacks, and workspace.",
+    "googleMapsUrl": "https://maps.google.com/?q=53.983619,-75.281066"
+  }
+]

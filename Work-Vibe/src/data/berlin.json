@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Cloud9 Caf\u00e9",
+    "type": "Cafe",
+    "description": "Rooftop caf\u00e9 with good Wi-Fi and city views.",
+    "googleMapsUrl": "https://maps.google.com/?q=-23.4875,44.229796"
+  },
+  {
+    "id": "2",
+    "name": "FocusLab",
+    "type": "Co-Working",
+    "description": "Focus-friendly zone with ergonomic chairs.",
+    "googleMapsUrl": "https://maps.google.com/?q=-17.952287,46.831849"
+  },
+  {
+    "id": "3",
+    "name": "WorkHub Co-Working",
+    "type": "Co-Working",
+    "description": "Modern co-working space with fast Wi-Fi.",
+    "googleMapsUrl": "https://maps.google.com/?q=26.828694,11.644669"
+  },
+  {
+    "id": "4",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=-14.886825,46.489485"
+  },
+  {
+    "id": "5",
+    "name": "Digital Nomad Caf\u00e9",
+    "type": "Cafe",
+    "description": "Hip cafe loved by freelancers and nomads.",
+    "googleMapsUrl": "https://maps.google.com/?q=-5.610744,-110.859907"
+  }
+]

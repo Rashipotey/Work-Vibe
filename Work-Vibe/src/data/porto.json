@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "City Park",
+    "type": "Garden",
+    "description": "Spacious park with shaded areas and seating.",
+    "googleMapsUrl": "https://maps.google.com/?q=74.136865,120.088937"
+  },
+  {
+    "id": "2",
+    "name": "Cafe Coffee Day",
+    "type": "Cafe",
+    "description": "Popular chain offering coffee, snacks, and workspace.",
+    "googleMapsUrl": "https://maps.google.com/?q=39.70331,5.556785"
+  },
+  {
+    "id": "3",
+    "name": "Cloud9 Caf\u00e9",
+    "type": "Cafe",
+    "description": "Rooftop caf\u00e9 with good Wi-Fi and city views.",
+    "googleMapsUrl": "https://maps.google.com/?q=70.973561,6.053083"
+  },
+  {
+    "id": "4",
+    "name": "Quiet Grounds",
+    "type": "Garden",
+    "description": "Peaceful garden with benches and trails.",
+    "googleMapsUrl": "https://maps.google.com/?q=-79.712753,118.89297"
+  },
+  {
+    "id": "5",
+    "name": "FocusLab",
+    "type": "Co-Working",
+    "description": "Focus-friendly zone with ergonomic chairs.",
+    "googleMapsUrl": "https://maps.google.com/?q=44.94675,-131.917949"
+  }
+]

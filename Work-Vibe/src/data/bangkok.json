@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "TechSpace",
+    "type": "Co-Working",
+    "description": "Premium working environment with all amenities.",
+    "googleMapsUrl": "https://maps.google.com/?q=-33.393618,-117.619048"
+  },
+  {
+    "id": "2",
+    "name": "Green Garden",
+    "type": "Garden",
+    "description": "Lush green space ideal for relaxation and remote work.",
+    "googleMapsUrl": "https://maps.google.com/?q=75.234388,123.165226"
+  },
+  {
+    "id": "3",
+    "name": "TechSpace",
+    "type": "Co-Working",
+    "description": "Premium working environment with all amenities.",
+    "googleMapsUrl": "https://maps.google.com/?q=16.642698,144.200366"
+  },
+  {
+    "id": "4",
+    "name": "Cloud9 Caf\u00e9",
+    "type": "Cafe",
+    "description": "Rooftop caf\u00e9 with good Wi-Fi and city views.",
+    "googleMapsUrl": "https://maps.google.com/?q=16.023137,-127.057704"
+  },
+  {
+    "id": "5",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=73.431797,32.802745"
+  }
+]

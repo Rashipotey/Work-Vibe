@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Cafe Coffee Day",
+    "type": "Cafe",
+    "description": "Popular chain offering coffee, snacks, and workspace.",
+    "googleMapsUrl": "https://maps.google.com/?q=-22.114365,-158.644637"
+  },
+  {
+    "id": "2",
+    "name": "City Park",
+    "type": "Garden",
+    "description": "Spacious park with shaded areas and seating.",
+    "googleMapsUrl": "https://maps.google.com/?q=37.443031,96.374318"
+  },
+  {
+    "id": "3",
+    "name": "FocusLab",
+    "type": "Co-Working",
+    "description": "Focus-friendly zone with ergonomic chairs.",
+    "googleMapsUrl": "https://maps.google.com/?q=44.3008,100.551605"
+  },
+  {
+    "id": "4",
+    "name": "TechSpace",
+    "type": "Co-Working",
+    "description": "Premium working environment with all amenities.",
+    "googleMapsUrl": "https://maps.google.com/?q=-37.710383,-112.89521"
+  },
+  {
+    "id": "5",
+    "name": "Cafe Coffee Day",
+    "type": "Cafe",
+    "description": "Popular chain offering coffee, snacks, and workspace.",
+    "googleMapsUrl": "https://maps.google.com/?q=-30.445657,58.729478"
+  }
+]

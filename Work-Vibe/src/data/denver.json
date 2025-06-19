@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "TechSpace",
+    "type": "Co-Working",
+    "description": "Premium working environment with all amenities.",
+    "googleMapsUrl": "https://maps.google.com/?q=-45.452371,29.987952"
+  },
+  {
+    "id": "2",
+    "name": "FocusLab",
+    "type": "Co-Working",
+    "description": "Focus-friendly zone with ergonomic chairs.",
+    "googleMapsUrl": "https://maps.google.com/?q=-37.739356,-165.766267"
+  },
+  {
+    "id": "3",
+    "name": "Cloud9 Caf\u00e9",
+    "type": "Cafe",
+    "description": "Rooftop caf\u00e9 with good Wi-Fi and city views.",
+    "googleMapsUrl": "https://maps.google.com/?q=45.756465,-97.518477"
+  },
+  {
+    "id": "4",
+    "name": "Digital Nomad Caf\u00e9",
+    "type": "Cafe",
+    "description": "Hip cafe loved by freelancers and nomads.",
+    "googleMapsUrl": "https://maps.google.com/?q=56.349867,-101.928292"
+  },
+  {
+    "id": "5",
+    "name": "Digital Nomad Caf\u00e9",
+    "type": "Cafe",
+    "description": "Hip cafe loved by freelancers and nomads.",
+    "googleMapsUrl": "https://maps.google.com/?q=-44.677542,139.642634"
+  }
+]

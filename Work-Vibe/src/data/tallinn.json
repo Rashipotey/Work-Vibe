@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "WorkHub Co-Working",
+    "type": "Co-Working",
+    "description": "Modern co-working space with fast Wi-Fi.",
+    "googleMapsUrl": "https://maps.google.com/?q=41.164398,-139.789548"
+  },
+  {
+    "id": "2",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=-9.228922,-3.912091"
+  },
+  {
+    "id": "3",
+    "name": "WorkHub Co-Working",
+    "type": "Co-Working",
+    "description": "Modern co-working space with fast Wi-Fi.",
+    "googleMapsUrl": "https://maps.google.com/?q=40.31186,28.660973"
+  },
+  {
+    "id": "4",
+    "name": "Digital Nomad Caf\u00e9",
+    "type": "Cafe",
+    "description": "Hip cafe loved by freelancers and nomads.",
+    "googleMapsUrl": "https://maps.google.com/?q=-64.577997,-5.01478"
+  },
+  {
+    "id": "5",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=12.38908,154.744959"
+  }
+]

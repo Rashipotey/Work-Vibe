@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Green Garden",
+    "type": "Garden",
+    "description": "Lush green space ideal for relaxation and remote work.",
+    "googleMapsUrl": "https://maps.google.com/?q=61.987302,-14.235334"
+  },
+  {
+    "id": "2",
+    "name": "Green Garden",
+    "type": "Garden",
+    "description": "Lush green space ideal for relaxation and remote work.",
+    "googleMapsUrl": "https://maps.google.com/?q=37.495948,23.851272"
+  },
+  {
+    "id": "3",
+    "name": "WorkHub Co-Working",
+    "type": "Co-Working",
+    "description": "Modern co-working space with fast Wi-Fi.",
+    "googleMapsUrl": "https://maps.google.com/?q=-73.811115,-19.925436"
+  },
+  {
+    "id": "4",
+    "name": "WorkHub Co-Working",
+    "type": "Co-Working",
+    "description": "Modern co-working space with fast Wi-Fi.",
+    "googleMapsUrl": "https://maps.google.com/?q=-59.095839,-121.301193"
+  },
+  {
+    "id": "5",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=24.865949,-76.658974"
+  }
+]

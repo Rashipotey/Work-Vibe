@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Digital Nomad Caf\u00e9",
+    "type": "Cafe",
+    "description": "Hip cafe loved by freelancers and nomads.",
+    "googleMapsUrl": "https://maps.google.com/?q=-40.984303,-131.602994"
+  },
+  {
+    "id": "2",
+    "name": "TechSpace",
+    "type": "Co-Working",
+    "description": "Premium working environment with all amenities.",
+    "googleMapsUrl": "https://maps.google.com/?q=-5.158358,-167.624787"
+  },
+  {
+    "id": "3",
+    "name": "Cafe Coffee Day",
+    "type": "Cafe",
+    "description": "Popular chain offering coffee, snacks, and workspace.",
+    "googleMapsUrl": "https://maps.google.com/?q=67.695949,2.077995"
+  },
+  {
+    "id": "4",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=34.106455,-142.831708"
+  },
+  {
+    "id": "5",
+    "name": "Cloud9 Caf\u00e9",
+    "type": "Cafe",
+    "description": "Rooftop caf\u00e9 with good Wi-Fi and city views.",
+    "googleMapsUrl": "https://maps.google.com/?q=58.65926,175.64248"
+  }
+]

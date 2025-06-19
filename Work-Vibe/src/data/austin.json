@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "City Park",
+    "type": "Garden",
+    "description": "Spacious park with shaded areas and seating.",
+    "googleMapsUrl": "https://maps.google.com/?q=-71.919315,87.921278"
+  },
+  {
+    "id": "2",
+    "name": "WorkHub Co-Working",
+    "type": "Co-Working",
+    "description": "Modern co-working space with fast Wi-Fi.",
+    "googleMapsUrl": "https://maps.google.com/?q=87.79833,-74.713796"
+  },
+  {
+    "id": "3",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=89.283256,-106.557672"
+  },
+  {
+    "id": "4",
+    "name": "WorkHub Co-Working",
+    "type": "Co-Working",
+    "description": "Modern co-working space with fast Wi-Fi.",
+    "googleMapsUrl": "https://maps.google.com/?q=76.65939,112.935495"
+  },
+  {
+    "id": "5",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=-38.427644,41.077626"
+  }
+]

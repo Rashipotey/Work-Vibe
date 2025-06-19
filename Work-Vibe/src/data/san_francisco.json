@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "City Park",
+    "type": "Garden",
+    "description": "Spacious park with shaded areas and seating.",
+    "googleMapsUrl": "https://maps.google.com/?q=7.281448,-128.217764"
+  },
+  {
+    "id": "2",
+    "name": "Green Garden",
+    "type": "Garden",
+    "description": "Lush green space ideal for relaxation and remote work.",
+    "googleMapsUrl": "https://maps.google.com/?q=-40.915386,-134.74811"
+  },
+  {
+    "id": "3",
+    "name": "Cafe Coffee Day",
+    "type": "Cafe",
+    "description": "Popular chain offering coffee, snacks, and workspace.",
+    "googleMapsUrl": "https://maps.google.com/?q=81.79849,-164.864167"
+  },
+  {
+    "id": "4",
+    "name": "Cloud9 Caf\u00e9",
+    "type": "Cafe",
+    "description": "Rooftop caf\u00e9 with good Wi-Fi and city views.",
+    "googleMapsUrl": "https://maps.google.com/?q=-54.097295,80.261626"
+  },
+  {
+    "id": "5",
+    "name": "Digital Nomad Caf\u00e9",
+    "type": "Cafe",
+    "description": "Hip cafe loved by freelancers and nomads.",
+    "googleMapsUrl": "https://maps.google.com/?q=-12.422816,-88.729432"
+  }
+]

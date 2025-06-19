@@ -1,0 +1,122 @@
+[
+  {
+    "country": "India",
+    "city": "Bangalore",
+    "cost": "Good",
+    "climate": "Tropical"
+  },
+  {
+    "country": "India",
+    "city": "Goa",
+    "cost": "Affordable",
+    "climate": "Tropical"
+  },
+  {
+    "country": "India",
+    "city": "Pune",
+    "cost": "Good",
+    "climate": "Tropical"
+  },
+  {
+    "country": "India",
+    "city": "Udaipur",
+    "cost": "Affordable",
+    "climate": "Dry"
+  },
+  {
+    "country": "USA",
+    "city": "Austin",
+    "cost": "High",
+    "climate": "Temperate"
+  },
+  {
+    "country": "USA",
+    "city": "San Francisco",
+    "cost": "High",
+    "climate": "Temperate"
+  },
+  {
+    "country": "USA",
+    "city": "Denver",
+    "cost": "Good",
+    "climate": "Temperate"
+  },
+  {
+    "country": "Portugal",
+    "city": "Lisbon",
+    "cost": "Good",
+    "climate": "Mediterranean"
+  },
+  {
+    "country": "Portugal",
+    "city": "Porto",
+    "cost": "Affordable",
+    "climate": "Mediterranean"
+  },
+  {
+    "country": "Spain",
+    "city": "Barcelona",
+    "cost": "High",
+    "climate": "Mediterranean"
+  },
+  {
+    "country": "Spain",
+    "city": "Valencia",
+    "cost": "Good",
+    "climate": "Mediterranean"
+  },
+  {
+    "country": "Thailand",
+    "city": "Chiang Mai",
+    "cost": "Affordable",
+    "climate": "Tropical"
+  },
+  {
+    "country": "Thailand",
+    "city": "Bangkok",
+    "cost": "Good",
+    "climate": "Tropical"
+  },
+  {
+    "country": "Mexico",
+    "city": "Mexico City",
+    "cost": "Good",
+    "climate": "Temperate"
+  },
+  {
+    "country": "Mexico",
+    "city": "Playa del Carmen",
+    "cost": "Affordable",
+    "climate": "Tropical"
+  },
+  {
+    "country": "Indonesia",
+    "city": "Bali",
+    "cost": "Affordable",
+    "climate": "Tropical"
+  },
+  {
+    "country": "Indonesia",
+    "city": "Jakarta",
+    "cost": "Good",
+    "climate": "Tropical"
+  },
+  {
+    "country": "Estonia",
+    "city": "Tallinn",
+    "cost": "Good",
+    "climate": "Cold"
+  },
+  {
+    "country": "Germany",
+    "city": "Berlin",
+    "cost": "High",
+    "climate": "Temperate"
+  },
+  {
+    "country": "Germany",
+    "city": "Munich",
+    "cost": "High",
+    "climate": "Temperate"
+  }
+]

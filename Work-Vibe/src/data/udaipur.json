@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=-36.859109,-79.319907"
+  },
+  {
+    "id": "2",
+    "name": "Green Garden",
+    "type": "Garden",
+    "description": "Lush green space ideal for relaxation and remote work.",
+    "googleMapsUrl": "https://maps.google.com/?q=59.289915,-71.757972"
+  },
+  {
+    "id": "3",
+    "name": "Cloud9 Caf\u00e9",
+    "type": "Cafe",
+    "description": "Rooftop caf\u00e9 with good Wi-Fi and city views.",
+    "googleMapsUrl": "https://maps.google.com/?q=-66.947271,-138.047065"
+  },
+  {
+    "id": "4",
+    "name": "Digital Nomad Caf\u00e9",
+    "type": "Cafe",
+    "description": "Hip cafe loved by freelancers and nomads.",
+    "googleMapsUrl": "https://maps.google.com/?q=-69.849903,58.091277"
+  },
+  {
+    "id": "5",
+    "name": "Cloud9 Caf\u00e9",
+    "type": "Cafe",
+    "description": "Rooftop caf\u00e9 with good Wi-Fi and city views.",
+    "googleMapsUrl": "https://maps.google.com/?q=38.645654,167.829325"
+  }
+]

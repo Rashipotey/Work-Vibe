@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "City Park",
+    "type": "Garden",
+    "description": "Spacious park with shaded areas and seating.",
+    "googleMapsUrl": "https://maps.google.com/?q=-12.702911,37.832528"
+  },
+  {
+    "id": "2",
+    "name": "City Park",
+    "type": "Garden",
+    "description": "Spacious park with shaded areas and seating.",
+    "googleMapsUrl": "https://maps.google.com/?q=-5.869946,-20.000105"
+  },
+  {
+    "id": "3",
+    "name": "FocusLab",
+    "type": "Co-Working",
+    "description": "Focus-friendly zone with ergonomic chairs.",
+    "googleMapsUrl": "https://maps.google.com/?q=0.298587,-153.910457"
+  },
+  {
+    "id": "4",
+    "name": "FocusLab",
+    "type": "Co-Working",
+    "description": "Focus-friendly zone with ergonomic chairs.",
+    "googleMapsUrl": "https://maps.google.com/?q=-21.597551,73.050793"
+  },
+  {
+    "id": "5",
+    "name": "Cafe Coffee Day",
+    "type": "Cafe",
+    "description": "Popular chain offering coffee, snacks, and workspace.",
+    "googleMapsUrl": "https://maps.google.com/?q=19.459053,-79.886229"
+  }
+]

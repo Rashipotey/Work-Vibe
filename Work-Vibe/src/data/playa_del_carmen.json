@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Cloud9 Caf\u00e9",
+    "type": "Cafe",
+    "description": "Rooftop caf\u00e9 with good Wi-Fi and city views.",
+    "googleMapsUrl": "https://maps.google.com/?q=-1.096691,119.098361"
+  },
+  {
+    "id": "2",
+    "name": "Cafe Coffee Day",
+    "type": "Cafe",
+    "description": "Popular chain offering coffee, snacks, and workspace.",
+    "googleMapsUrl": "https://maps.google.com/?q=56.922202,2.688537"
+  },
+  {
+    "id": "3",
+    "name": "Quiet Grounds",
+    "type": "Garden",
+    "description": "Peaceful garden with benches and trails.",
+    "googleMapsUrl": "https://maps.google.com/?q=78.00986,-50.364846"
+  },
+  {
+    "id": "4",
+    "name": "TechSpace",
+    "type": "Co-Working",
+    "description": "Premium working environment with all amenities.",
+    "googleMapsUrl": "https://maps.google.com/?q=7.991076,-161.869168"
+  },
+  {
+    "id": "5",
+    "name": "Heritage Museum",
+    "type": "Museum",
+    "description": "Cultural hotspot showcasing local heritage.",
+    "googleMapsUrl": "https://maps.google.com/?q=7.491454,102.009747"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Cafe Coffee Day",
+    "type": "Cafe",
+    "description": "Popular chain offering coffee, snacks, and workspace.",
+    "googleMapsUrl": "https://maps.google.com/?q=-53.63597,35.223189"
+  },
+  {
+    "id": "2",
+    "name": "WorkHub Co-Working",
+    "type": "Co-Working",
+    "description": "Modern co-working space with fast Wi-Fi.",
+    "googleMapsUrl": "https://maps.google.com/?q=-1.444814,-133.603109"
+  },
+  {
+    "id": "3",
+    "name": "City Park",
+    "type": "Garden",
+    "description": "Spacious park with shaded areas and seating.",
+    "googleMapsUrl": "https://maps.google.com/?q=54.869606,18.400937"
+  },
+  {
+    "id": "4",
+    "name": "Green Garden",
+    "type": "Garden",
+    "description": "Lush green space ideal for relaxation and remote work.",
+    "googleMapsUrl": "https://maps.google.com/?q=-40.944084,-5.548433"
+  },
+  {
+    "id": "5",
+    "name": "Green Garden",
+    "type": "Garden",
+    "description": "Lush green space ideal for relaxation and remote work.",
+    "googleMapsUrl": "https://maps.google.com/?q=37.781364,-87.975391"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "City Park",
+    "type": "Garden",
+    "description": "Spacious park with shaded areas and seating.",
+    "googleMapsUrl": "https://maps.google.com/?q=16.112988,150.732018"
+  },
+  {
+    "id": "2",
+    "name": "Quiet Grounds",
+    "type": "Garden",
+    "description": "Peaceful garden with benches and trails.",
+    "googleMapsUrl": "https://maps.google.com/?q=65.261014,134.808896"
+  },
+  {
+    "id": "3",
+    "name": "Quiet Grounds",
+    "type": "Garden",
+    "description": "Peaceful garden with benches and trails.",
+    "googleMapsUrl": "https://maps.google.com/?q=-53.568509,-8.714605"
+  },
+  {
+    "id": "4",
+    "name": "City Park",
+    "type": "Garden",
+    "description": "Spacious park with shaded areas and seating.",
+    "googleMapsUrl": "https://maps.google.com/?q=27.826926,23.957021"
+  },
+  {
+    "id": "5",
+    "name": "Quiet Grounds",
+    "type": "Garden",
+    "description": "Peaceful garden with benches and trails.",
+    "googleMapsUrl": "https://maps.google.com/?q=2.360117,-104.905921"
+  }
+]
