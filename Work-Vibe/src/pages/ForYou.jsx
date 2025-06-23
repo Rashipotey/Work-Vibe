@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import LocationCard from "../components/LocationCard";
-import { auth } from "../firebase"; // ✅ Import Firebase auth
+import { auth } from "../firebase"; 
 
 export default function ForYou() {
   const [recommendations, setRecommendations] = useState([]);

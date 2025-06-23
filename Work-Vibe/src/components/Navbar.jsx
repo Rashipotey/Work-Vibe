@@ -30,6 +30,7 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-8 text-sm font-medium items-center">
             <NavLink to="/favorites" label="Favorites" isActive={isActive} />
             <NavLink to="/about" label="About" isActive={isActive} />
+            <NavLink to="/explore" label="Explore" isActive={isActive} />
             <NavLink to="/blogs" label="Blogs" isActive={isActive} />
             <NavLink to="/addLoc" label="Add" isActive={isActive} />
 
@@ -87,7 +88,10 @@ export default function Navbar() {
         {menuOpen && (
           <div className="md:hidden flex flex-col space-y-2 mt-2">
             <NavLink to="/favorites" label="Favorites" isActive={isActive} />
-            <NavLink to="/map" label="Map" isActive={isActive} />
+            <NavLink to="/about" label="About" isActive={isActive} />
+            <NavLink to="/explore" label="Explore" isActive={isActive} />
+            <NavLink to="/blogs" label="Blogs" isActive={isActive} />
+            <NavLink to="/addLoc" label="Add" isActive={isActive} />
 
             <Link
               to="/profile"

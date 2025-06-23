@@ -1,24 +1,32 @@
 require("dotenv").config();
-const { initializeApp, applicationDefault } = require("firebase-admin/app");
+const { initializeApp } = require("firebase-admin/app");
 const { getFirestore } = require("firebase-admin/firestore");
-const { default: fetch } = require("node-fetch");
-const { pipeline } = require("node:stream/promises");
+const fetch = require("node-fetch");
 
 if (!global._firebaseInitialized) {
-  initializeApp({ credential: applicationDefault() });
+  const { cert } = require("firebase-admin/app");
+  const serviceAccount = require("./firebase-service-account.json");
+  initializeApp({
+    credential: cert(serviceAccount),
+  });
   global._firebaseInitialized = true;
 }
 
 const db = getFirestore();
-const headers = {
+
+const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "*",
-  "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
+  "Access-Control-Allow-Methods": "GET,OPTIONS"
 };
 
 module.exports.recommendForYou = async (event) => {
   if (event.httpMethod === "OPTIONS") {
-    return { statusCode: 200, headers };
+    return {
+      statusCode: 200,
+      headers: corsHeaders,
+      body: "",
+    };
   }
 
   try {
@@ -26,7 +34,7 @@ module.exports.recommendForYou = async (event) => {
     if (!userId) {
       return {
         statusCode: 400,
-        headers,
+        headers: corsHeaders,
         body: JSON.stringify({ error: "Missing userId" }),
       };
     }
@@ -35,9 +43,9 @@ module.exports.recommendForYou = async (event) => {
     const seenPlaces = new Set();
     const promptList = [];
 
-    promptsSnap.forEach(doc => {
+    promptsSnap.forEach((doc) => {
       const data = doc.data();
-      data.geminiResponse?.forEach(place => seenPlaces.add(place));
+      data.geminiResponse?.forEach((place) => seenPlaces.add(place));
       promptList.push(data.originalPrompt);
     });
 
@@ -49,9 +57,7 @@ module.exports.recommendForYou = async (event) => {
       if (seenPlaces.has(loc.locationName)) continue;
 
       const tagsText = loc.selectedVibes?.join(" ") ?? "";
-      const relevancePrompt = `Is the location with tags: [${tagsText}] similar to any of these prompts: ${promptList.join(
-        ", "
-      )}? Only answer 'yes' or 'no'.`;
+      const relevancePrompt = `Is the location with tags: [${tagsText}] similar to any of these prompts: ${promptList.join(", ")}? Only answer 'yes' or 'no'.`;
 
       const geminiCheck = await fetch(
         `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
@@ -74,15 +80,15 @@ module.exports.recommendForYou = async (event) => {
 
     return {
       statusCode: 200,
-      headers,
+      headers: corsHeaders,
       body: JSON.stringify({ recommendations: unseenRelevant }),
     };
 
   } catch (err) {
-    console.error("Recommendation error:", err);
+    console.error("Recommendation error:", err.message, err.stack);
     return {
       statusCode: 500,
-      headers,
+      headers: corsHeaders,
       body: JSON.stringify({ error: err.message || "Internal Server Error" }),
     };
   }

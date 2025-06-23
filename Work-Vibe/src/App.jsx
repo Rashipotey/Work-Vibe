@@ -19,6 +19,8 @@ import AddBlog from './pages/AddBlog';
 import BlogDetails from './pages/BlogDetailsPage';
 import DisplayBlogs from './pages/DisplayBlogs'
 import ForYou from './pages/ForYou';
+import ExplorePage from './pages/ExplorePage'
+import FetchLocationsFromAWS from './pages/FetchLocationsFromAWS'
 
 
 function AppLayout() {
@@ -95,6 +97,14 @@ function AppLayout() {
           <Route
             path="for-you"
             element={user ? <ForYou /> : <Navigate to="/auth" replace />}
+          />
+          <Route
+            path="explore"
+            element={user ? <ExplorePage /> : <Navigate to="/auth" replace />}
+          />
+          <Route
+            path="fetch-loc/:id"
+            element={user ? <FetchLocationsFromAWS /> : <Navigate to="/auth" replace />}
           />
         </Routes>
       </main>
