@@ -2,7 +2,7 @@
 
 A personalized travel and workation web app that helps remote workers find ideal locations based on preferences and AI-curated suggestions.
 
-## Features
+## Features of Word-Vibe
 
 - **AI Travel Assistant**: Users can enter natural language prompts to get smart city recommendations using Google Gemini API.
 - **Prompt Curation**: Saves previous user queries and AI responses in Firestore for personalized future use.
