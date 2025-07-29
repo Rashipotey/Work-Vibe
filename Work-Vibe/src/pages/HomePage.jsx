@@ -9,7 +9,6 @@ export default function Home() {
   const [showAll, setShowAll] = useState(false);
   const [curatedCities, setCuratedCities] = useState([]);
 
-  // 🔹 Fetch locations
   useEffect(() => {
     const fetchLocations = async () => {
       try {
@@ -27,7 +26,6 @@ export default function Home() {
 
   const topLocations = showAll ? locations : locations.slice(0, 3);
 
-  // 🔹 Fetch curated prompts (only latest 5)
   useEffect(() => {
     const fetchCuratedPrompts = async () => {
       try {
