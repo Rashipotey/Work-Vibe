@@ -5,7 +5,6 @@ import himalayanImg from "../assets/himalayan.jpg";
 import urbanJungleImg from "../assets/urban-jungle.jpg";
 
 
-// Dummy data for quick preview cards
 const sampleLocations = [
   { name: "Goa Beach Shack", city: "Goa", type: "Cafe", image: goaImg },
   { name: "Himalayan CoWork", city: "Dharamshala", type: "Co-Working", image: himalayanImg },
@@ -16,7 +15,6 @@ const sampleLocations = [
 export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Header */}
       <header className="bg-white border-b shadow-sm px-6 py-4 flex justify-between items-center">
         <h1 className="text-xl font-bold text-[#00B09F]">Work Vibe</h1>
         <Link to="/auth" className="text-sm text-[#00B09F] hover:underline">
@@ -24,8 +22,6 @@ export default function LandingPage() {
         </Link>
 
       </header>
-
-      {/* Hero Section */}
       <section className="text-center py-16 px-4 bg-blue-50">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">
           Work From Anywhere, Discover Your Vibe 🌍
@@ -35,7 +31,6 @@ export default function LandingPage() {
         </p>
       </section>
 
-      {/* Directory Preview */}
       <section className="px-6 py-12">
         <h3 className="text-xl font-semibold text-gray-800 mb-6">Top Spots Preview</h3>
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
